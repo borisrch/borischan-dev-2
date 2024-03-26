@@ -19,6 +19,7 @@ import Bonsai from '../assets/plant-4.png'
       <div class="absolute bottom-0 bg-[#e64a19] h-4 w-6 rounded-b-lg hue-rotate-30 brightness-150"/>
       <img
         :src="Grass"
+        alt="grass-plant"
         class="absolute w-9 bottom-5 -left-1"/>
       <div class="absolute bottom-4 -left-0.5 bg-[#bf360c] h-2 w-7 rounded-b hue-rotate-30 brightness-125"/>
     </div>
@@ -27,6 +28,7 @@ import Bonsai from '../assets/plant-4.png'
       <div class="absolute bottom-0 bg-[#e64a19] h-4 w-6 rounded-b-lg -hue-rotate-30"/>
       <img
         :src="Lavender"
+        alt="lavender-plant"
         class="absolute w-10 bottom-5 -left-1"/>
       <div class="absolute bottom-4 -left-0.5 bg-[#bf360c] h-2 w-7 rounded-b -hue-rotate-30"/>
     </div>
@@ -35,6 +37,7 @@ import Bonsai from '../assets/plant-4.png'
       <div class="absolute bottom-0 bg-[#e64a19] h-4 w-6 rounded-b-lg hue-rotate-180"/>
       <img
         :src="Bonsai"
+        alt="bonsai-plant"
         class="absolute w-9 bottom-5 -left-1"/>
       <div class="absolute bottom-4 -left-0.5 bg-[#bf360c] h-2 w-7 rounded-b hue-rotate-180"/>
     </div>

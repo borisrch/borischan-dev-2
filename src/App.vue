@@ -8,7 +8,7 @@ import { RouterView } from 'vue-router'
       <RouterView />
     </div>
 
-    <footer class="py-4 px-8 flex flex-col sm:flex-row justify-between w-full text-prussian opacity-60 space-y-2">
+    <footer class="py-6 sm:py-4 px-8 flex flex-col sm:flex-row justify-between w-full text-prussian opacity-60 space-y-2">
       <div class="text-xs">
           <span>
             © 2024 - Designed, built, and backed by <span class="font-semibold underline">Boris Chan</span>.
@@ -25,7 +25,3 @@ import { RouterView } from 'vue-router'
     </footer>
   </div>
 </template>
-
-<style scoped>
-
-</style>

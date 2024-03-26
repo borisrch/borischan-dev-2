@@ -10,8 +10,8 @@ function routeCaseStudies() {
 </script>
 
 <template>
-  <main class="flex flex-col justify-center items-center bg-beige rounded-[13px]">
-    <div class="grid grid-cols-1 gap-4 w-[375px] sm:w-[600px] py-12 sm:py-16">
+  <main class="flex flex-col justify-center items-center bg-beige sm:rounded-[13px]">
+    <div class="grid grid-cols-1 gap-2 sm:gap-4 w-[375px] sm:w-[600px] py-4 sm:py-16 px-4 sm:px-0">
       <div class="mt-16">
         <PlantShelf/>
       </div>
@@ -27,7 +27,7 @@ function routeCaseStudies() {
         friendly web maker based in Toronto, ON.
       </h2>
 
-      <p>
+      <p class="tracking-tight">
         I take on a few client projects each year, building unique digital experiences on the web.
       </p>
 
@@ -35,15 +35,15 @@ function routeCaseStudies() {
         If you're looking for a <span class="underline-marker">personalized approach</span> to revitalize your brand and online presence, you've come to the right place.
       </h3>
 
-      <p class="tracking-tight">
+      <p class="hidden sm:block tracking-tight">
         I'm interested in working with small and mid-sized companies. They're often underserved, ignored, and overworked.
       </p>
 
-      <p>
+      <p class="hidden sm:block tracking-tight">
         My team and I are here for them.
       </p>
 
-      <div class="grid grid-cols-2 sm:flex gap-x-2 gap-y-4 mt-4">
+      <div class="grid grid-cols-2 sm:flex gap-x-2 gap-y-4 mt-8 sm:mt-4">
         <button class="transition-all font-serif bg-fire text-beige px-5 py-3 rounded-3xl font-bold hover:bg-tangerine cursor-pointer">
           cast an email
         </button>
